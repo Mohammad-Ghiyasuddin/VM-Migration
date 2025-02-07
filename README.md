@@ -19,23 +19,27 @@ Check Repo IAM-Policy file.
 
 - Choose **AWS** as the source.
 
-![Select AWS Source](images/AWS%20GCP%20VM.png)
+![Select AWS Source](images/vmM2.png)
 
 ### 3. Configure Source Details
 - Enter the required details for the AWS source environment.
 - Click **Create** after completing the configuration.
 
-![Fill Source Details](images/AWS%20GCP%20VM.png)
+![Fill Source Details](images/vmM3.png)
 
 ### 4. Start Replication
 - Under **Migrate to Virtual Machines**, go to **VM Migration**.
 - Click **Start Replication** to begin data transfer from AWS to GCP.
+
+![Click on start replication](images/vmM4.png)
 
 ### 5. Add Target
 - Define the target environment in GCP where the VM will be hosted.
 
 ### 6. Complete Migration (Cutover)
 - Once replication is complete, perform the **cutover** to finalize the migration and switch operations to GCP.
+
+![CUTT OVER](images/vmM5.png)
 
 ---
 This guide provides a high-level overview of the migration process. For detailed instructions, refer to the [official GCP documentation](https://cloud.google.com/migrate/compute-engine/docs/).

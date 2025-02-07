@@ -15,7 +15,7 @@ Check Repo IAM-Policy file.
 - Navigate to **Compute Engine** in the Google Cloud Console.
 - Select **Migrate to Virtual Machine**.
 
-![Migrate to VM](images/AWS%20GCP%20VM.png)
+![Migrate to VM](images/vmM1.png)
 
 - Choose **AWS** as the source.
 
